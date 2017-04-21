@@ -1,3 +1,278 @@
-.oxmod-smct-build{
-/* CSS */
- }
+@font-face {
+  font-family: 'iconfont';
+  /* project id 266910 */
+  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot');
+  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.woff') format('woff'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.ttf') format('truetype'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.svg#iconfont') format('svg');
+}
+.oxmod-smct-build {
+  text-align: center;
+}
+.oxmod-smct-build .bgcolor,
+.oxmod-smct-build .textcolor {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: solid 1px #000;
+  border-radius: 2px;
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.oxmod-smct-build .bgcolor input,
+.oxmod-smct-build .textcolor input {
+  margin-top: 35px;
+}
+.oxmod-smct-build .bgcolor-1 {
+  background-color: #0b97c4;
+}
+.oxmod-smct-build .bgcolor-2 {
+  background-color: yellow;
+}
+.oxmod-smct-build .bgcolor-3 {
+  background-color: red;
+}
+.oxmod-smct-build .bgcolor-4 {
+  background-color: rosybrown;
+}
+.oxmod-smct-build .bgcolor-5 {
+  background-color: green;
+}
+.oxmod-smct-build .bgcolor-6 {
+  background-color: greenyellow;
+}
+.oxmod-smct-build .bgcolor-7 {
+  background-color: gray;
+}
+.oxmod-smct-build .bgcolor-8 {
+  background-color: gold;
+}
+.oxmod-smct-build .bgcolor-9 {
+  background-color: blueviolet;
+}
+.oxmod-smct-build .bgcolor-10 {
+  background-color: silver;
+}
+.oxmod-smct-build .bgcolor-11 {
+  background-color: chocolate;
+}
+.oxmod-smct-build .bgcolor-12 {
+  background-color: cadetblue;
+}
+.oxmod-smct-build .color-1 {
+  background-color: #fff;
+}
+.oxmod-smct-build .color-2 {
+  background-color: yellow;
+}
+.oxmod-smct-build .color-3 {
+  background-color: red;
+}
+.oxmod-smct-build .color-4 {
+  background-color: rosybrown;
+}
+.oxmod-smct-build .color-5 {
+  background-color: green;
+}
+.oxmod-smct-build .color-6 {
+  background-color: greenyellow;
+}
+.oxmod-smct-build .color-7 {
+  background-color: gray;
+}
+.oxmod-smct-build .color-8 {
+  background-color: gold;
+}
+.oxmod-smct-build .color-9 {
+  background-color: #0099cc;
+}
+.oxmod-smct-build .color-10 {
+  background-color: silver;
+}
+.oxmod-smct-build .color-11 {
+  background-color: chocolate;
+}
+.oxmod-smct-build .color-12 {
+  background-color: cadetblue;
+}
+.oxmod-smct-build .tpl-list {
+  height: 80px;
+  overflow-x: auto;
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #555;
+}
+.oxmod-smct-build .tpl-list input[type=text] {
+  border: solid 1px #ccc;
+  height: 20px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.oxmod-smct-build .toolbar > dl {
+  display: none;
+}
+.oxmod-smct-build .toolbar > dl > dt {
+  font-size: 14px;
+  padding: 0px 10px;
+  color: #666;
+  border-bottom: solid 1px #f5f5f5;
+  margin-bottom: 5px;
+  text-align: left;
+  line-height: 30px;
+  height: 30px;
+}
+.oxmod-smct-build .toolbar > dl > dt input {
+  height: 22px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+.oxmod-smct-build .toolbar[data-on='1'] > dl:nth-child(1) {
+  display: block;
+}
+.oxmod-smct-build .toolbar[data-on='2'] > dl:nth-child(2) {
+  display: block;
+}
+.oxmod-smct-build .toolbar[data-on='3'] > dl:nth-child(3) {
+  display: block;
+}
+.oxmod-smct-build .toolbar[data-on='1'] > .switches > button:nth-child(1) {
+  background-color: #0099cc;
+}
+.oxmod-smct-build .toolbar[data-on='2'] > .switches > button:nth-child(2) {
+  background-color: #0099cc;
+}
+.oxmod-smct-build .toolbar[data-on='3'] > .switches > button:nth-child(3) {
+  background-color: #0099cc;
+}
+.oxmod-smct-build .preview {
+  border-radius: 40px;
+  width: 320px;
+  height: 320px;
+  margin: 10px auto;
+  box-shadow: 0px 1px 1px #ccc;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+.oxmod-smct-build .qrcode {
+  margin-top: 19.2px;
+  width: 179.2px;
+  padding: 5px;
+  border: solid 1px #ccc;
+}
+.oxmod-smct-build .card-header {
+  color: #fff;
+  font-size: 35.2px;
+  letter-spacing: 3.2px;
+  height: 76.8px;
+  line-height: 76.8px;
+  font-family: '黑体', sans-serif;
+  font-weight: 700;
+}
+.oxmod-smct-build .card-body {
+  background-color: #fff;
+  height: 217.6px;
+}
+.oxmod-smct-build .card-footer {
+  height: 25.6px;
+  line-height: 25.6px;
+  font-size: 12px;
+  color: #666;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+.oxmod-smct-build .central {
+  position: absolute;
+  margin-top: 88.84px;
+  width: 320px;
+  height: 49.92px;
+  text-align: center;
+  line-height: 0;
+  overflow: hidden;
+}
+.oxmod-smct-build .central-bg {
+  background-color: #fff;
+}
+.oxmod-smct-build .central img {
+  width: 49.92px;
+  height: 49.92px;
+  vertical-align: middle;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.oxmod-smct-build .carlogo {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+}
+.oxmod-smct-build .carlogo img {
+  width: 40px;
+}
+.oxmod-smct-build .carlist > .carlogo {
+  padding: 0 5px;
+}
+.oxmod-smct-build .switches {
+  border-top: solid 1px #0099cc;
+  font-size: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.oxmod-smct-build .switches button {
+  background-color: #999;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 33.3333333%;
+  border-style: none;
+  box-shadow: inset 0px 0 1px #fff;
+  outline: none;
+}
+.oxmod-smct-build .switches button:hover {
+  opacity: .9;
+}
+.oxmod-smct-build .carlist {
+  width: 100%;
+  overflow-x: auto ;
+  text-align: center;
+  height: 70px;
+  transition: all .3s;
+}
+.oxmod-smct-build .bt-second,
+.oxmod-smct-build .bt-main {
+  border: solid 1px #ccc;
+  background-color: #f60;
+  color: #fff;
+  font-size: 15px;
+  padding: 0;
+  border-radius: 5px;
+  height: 40px;
+}
+.oxmod-smct-build .bt-second {
+  background-color: #09c;
+}
+.oxmod-smct-build .buttons {
+  padding: 20px 0;
+}
+.oxmod-smct-build .buttons button {
+  width: 48%;
+  margin: 0 1%;
+}
+.oxmod-smct-build .buttons form {
+  display: inline-block;
+}
+.oxmod-smct-build .title {
+  font-weight: 400;
+  margin: 5px 0 0px;
+}
+.oxmod-smct-build .title:before,
+.oxmod-smct-build .title:after {
+  content: '';
+  width: 50px;
+  border-top: solid 1px #eee;
+  display: inline-block;
+  margin: 0px 15px 0;
+  vertical-align: middle;
+}
