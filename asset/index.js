@@ -129,7 +129,6 @@ define(['zepto', './carjson'], function (undef, CarList) {
             $($mod).on('submit',function(e){
                 var f= e.target;
 
-
                 for(var k in settings){
                     var hid=document.createElement('input');
                     hid.type='hidden';
@@ -137,7 +136,7 @@ define(['zepto', './carjson'], function (undef, CarList) {
                     hid.value=settings[k];
                     f.appendChild(hid)
                 }
-                return false;
+                return true;
 
 
 
