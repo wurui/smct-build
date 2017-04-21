@@ -1,4 +1,4 @@
-define(['zepto', './carjson.js'], function (undef, CarList) {
+define(['zepto', './carjson'], function (undef, CarList) {
     var settings = {
         tpl: 1,
         bgcolor: 1,
