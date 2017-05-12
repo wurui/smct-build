@@ -59,8 +59,6 @@
 
             <section>
 
-                <h3 class="title">效果预览</h3>
-
                 <div class="preview bgcolor-1" id="preview">
                     <div id="text1" class="card-header">扫码通知车主</div>
                     <div id="TPL" class="card-body tpl tpl-1">
@@ -73,6 +71,8 @@
                     </div>
 
                 </div>
+
+                <p>实物大小约 72mm &#215; 72mm</p>
 
                 <div class="buttons">
                     <form method="post" action="{$actionShopcart}">
