@@ -32,7 +32,7 @@ define(['zepto'], function (undef) {
         //console.log($carlist[0].clientWidth, $carlist[0].scrollWidth, sl)
     };
     var carlogoPath = function (name) {
-        return 'http://www.shaomachetie.com/static/smct/img/carlogo/' + name + '.jpg';
+        return '//www.shaomachetie.com/static/smct/img/carlogo/' + name + '.jpg';
     };
     var renderCarList = function (searchKey) {
         var searchKey = searchKey || '';
